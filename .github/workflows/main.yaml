@@ -13,7 +13,7 @@ jobs:
         env:
           UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
         with:
-          projectPath: .
+          projectPath: ./
           githubToken: ${{ secrets.GITHUB_TOKEN }}
 
   buildAndroid:
